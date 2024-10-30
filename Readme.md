@@ -1,2 +1,2 @@
 ## 🇹🇷 YAŞA GAZİ MUSTAFA KEMAL PAŞA! 🇹🇷
-### [DEMO](https://erenivon.netlify.app)
+### <a href="https://erenivon.netlify.app" target="_blank">DEMO</a>
