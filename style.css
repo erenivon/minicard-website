@@ -1,0 +1,126 @@
+    body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        position: relative;
+        font-family: 'Roboto', sans-serif;
+    }
+    .background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Flag_of_Turkey_dark.gif/640px-Flag_of_Turkey_dark.gif') no-repeat center center fixed;
+        background-size: cover;
+    }
+    .card {
+        background: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(10px);
+        border-radius: 15px;
+        padding: 40px;
+        text-align: center;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        width: 300px;
+    }
+    .music-card {
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: 10px;
+        padding: 20px;
+        margin-top: 20px;
+        text-align: left;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    .music-img {
+        width: 70px;
+        height: 70px;
+        border-radius: 5px;
+        object-fit: cover;
+        float: left;
+        margin-right: 15px;
+    }
+    .progress-container {
+        width: 100%;
+        background: #ddd;
+        border-radius: 5px;
+        margin-top: 10px;
+        position: relative;
+        cursor: pointer;
+    }
+    .progress {
+        height: 5px;
+        background: #0066ff;
+        width: 0%;
+        border-radius: 5px;
+    }
+    .time-labels {
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    h1 {
+        margin: 0;
+        font-size: 2.5em;
+        animation: fadeIn 2s;
+    }
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(-20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    p {
+        margin: 5px 0;
+        font-size: 1.2em;
+    }
+    .button {
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: transparent;
+        color: #242424;
+        font-size: 1.5em;
+    }
+    .profile-img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 20px;
+        border: 3px solid white;
+    }
+    .social-links {
+        margin-top: 10px;
+    }
+    .social-links a {
+        margin: 0 10px;
+        color: #000000;
+        font-size: 1.5em;
+    }
+    .play-container {
+        position: relative;
+        margin-top: -10px;
+        text-align: center;
+    }
+    a, a:visited, a:hover, a:active{
+        color: inherit;
+        text-decoration: none;
+    }
+    button, a{
+        transition: all 200ms;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    button:hover{
+        color:#ddd;
+    }
+    @media (max-width: 750px) {
+        .card{
+            margin-top: -80px;
+        }
+    }

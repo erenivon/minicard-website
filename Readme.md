@@ -1,0 +1,1 @@
+## 🇹🇷 YAŞA GAZİ MUSTAFA KEMAL PAŞA! 🇹🇷
